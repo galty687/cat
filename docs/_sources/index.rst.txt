@@ -11,9 +11,21 @@
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 翻译记忆库
 
    tm/align.md
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 项目管理
+
+   pm/pm.md
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 机器翻译
+
+   mt/mt-for-trados.md 
