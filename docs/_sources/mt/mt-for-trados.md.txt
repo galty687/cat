@@ -15,3 +15,8 @@
 2. 在MT中输入translation API key
 3. 选择订阅所属的区域
 
+![mt-enhanced-trados](mt-enhanced-trados.png)
+4. 在翻译过程即可由机器翻译自动完成译文
+
+![mt-result](mt-result.png)
+

@@ -15,6 +15,7 @@
    :caption: 翻译记忆库
 
    tm/align.md
+   tm/remote-tm.md
 
 
 .. toctree::
@@ -28,4 +29,5 @@
    :maxdepth: 1
    :caption: 机器翻译
 
+   mt/mt-intro.md
    mt/mt-for-trados.md 
