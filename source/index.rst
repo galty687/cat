@@ -17,12 +17,18 @@
    tm/align.md
    tm/remote-tm.md
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 术语库
+
+   tb/term.md
 
 .. toctree::
    :maxdepth: 1
    :caption: 项目管理
 
    pm/pm.md
+   qa/TQA.md
 
 
 .. toctree::

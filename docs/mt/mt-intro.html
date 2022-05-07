@@ -139,9 +139,14 @@ commentsRunWhenDOMLoaded(addUtterances);
 <p class="caption"><span class="caption-text">机器翻译</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">机器翻译与后编辑</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">机器翻译基本原理</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">机器翻译常见讨论的问题</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id4">常见机器翻译服务商</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">机器翻译基本原理</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id3">基于规则</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">基于统计</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">基于神经网络</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">机器翻译常见讨论的问题</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">常见机器翻译服务商</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="mt-for-trados.html">在 Trados中使用机器翻译</a></li>
@@ -217,17 +222,39 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li><p>SMT</p></li>
 <li><p>NMT</p></li>
 </ul>
-</div>
 <div class="section" id="id3">
-<h2>机器翻译常见讨论的问题<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<h3>基于规则<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<p>靠人工来总结语言之间的转换。</p>
+<p>例如：</p>
+<p><strong>原文： I went to Nanjing.</strong></p>
+<p>先分析其句法结构，为 S V O 结构，再分析其时态为过去时，然后使用词汇表将对应中文词汇填入中文句子结构中。</p>
+<p><strong>译文：我去了南京。</strong></p>
+<p>因为规则太多导致规则之间的冲突屡见不鲜，随着规则的增多，整体上系统的可维护性越来越差。</p>
+</div>
+<div class="section" id="id4">
+<h3>基于统计<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+<p>进入到统计时代后，逐步拜托了对于语言学家的依赖，机器可以自行构建词汇和句法的知识。</p>
+<p>词汇的学习：</p>
+<p>The apple is favored by my grandfather.</p>
+<p>苹果 是 所喜欢 我的 爷爷</p>
+<p>然后就通过语言模型来将 {苹果 是 所喜欢 我的 爷爷 }，调整为一个可能的句子。这里其实机器也不知道哪个是对的，软件只能把所有的组合全都试验一遍，然后把概率最大的组合输出为结果。</p>
+</div>
+<div class="section" id="id5">
+<h3>基于神经网络<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+<p>搭建若干层网络，给神经网络输入原文和译文，由神经网络自动学习。</p>
+<p>神经网络基本原理。</p>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>机器翻译常见讨论的问题<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
 <ol class="simple">
 <li><p>如何评价机器翻译质量（BLEU）</p></li>
 <li><p>如何做机器翻译后编辑</p></li>
 <li><p>如何计算后编辑的工作量</p></li>
 </ol>
 </div>
-<div class="section" id="id4">
-<h2>常见机器翻译服务商<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id7">
+<h2>常见机器翻译服务商<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
 <ol class="simple">
 <li><p>Google Cloud Translation API</p></li>
 <li><p>Microsoft Cognitive Toolkit | Translator</p></li>
