@@ -1,45 +1,28 @@
-
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="zh-CN" >
 <head>
-  <meta charset="utf-8">
-  <script type="text/javascript">
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-45957014-9']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45957014-9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-45957014-9');
     </script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>机器翻译与后编辑 &mdash; 计算机辅助翻译 2022 文档</title>
-  
-
-  
-  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-
-  
-  
-  
-  
-
-  
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script src="../_static/jquery.js"></script>
-        <script src="../_static/underscore.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
         <script kind="utterances">
 
     var commentsRunWhenDOMLoaded = cb => {
@@ -75,68 +58,47 @@ var addUtterances = () => {
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
         <script src="../_static/translations.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-
-    
+    <script src="../_static/js/theme.js"></script>
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="搜索" href="../search.html" />
     <link rel="next" title="在 Trados中使用机器翻译" href="mt-for-trados.html" />
-    <link rel="prev" title="翻译项目管理" href="../pm/pm.html" /> 
+    <link rel="prev" title="翻译质量评估" href="../qa/TQA.html" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
 
           
-            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> 计算机辅助翻译
           
-
-          
+          <a href="../index.html" class="icon icon-home">
+            计算机辅助翻译
           </a>
-
-          
-            
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="搜索文档" aria-label="搜索文档" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <p class="caption"><span class="caption-text">翻译记忆库</span></p>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
+              <p class="caption" role="heading"><span class="caption-text">翻译记忆库</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../tm/align.html">对齐生成记忆库</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tm/remote-tm.html">远程共享翻译记忆库</a></li>
 </ul>
-<p class="caption"><span class="caption-text">项目管理</span></p>
+<p class="caption" role="heading"><span class="caption-text">术语库</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tb/term.html">术语</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">项目管理</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../pm/pm.html">翻译项目管理</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../qa/TQA.html">翻译质量评估</a></li>
 </ul>
-<p class="caption"><span class="caption-text">机器翻译</span></p>
+<p class="caption" role="heading"><span class="caption-text">机器翻译</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">机器翻译与后编辑</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id2">机器翻译基本原理</a><ul>
@@ -152,173 +114,110 @@ commentsRunWhenDOMLoaded(addUtterances);
 <li class="toctree-l1"><a class="reference internal" href="mt-for-trados.html">在 Trados中使用机器翻译</a></li>
 </ul>
 
-            
-          
         </div>
-        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="移动版导航菜单" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../index.html">计算机辅助翻译</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="页面导航">
   <ul class="wy-breadcrumbs">
-    
-      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-        
-      <li>机器翻译与后编辑</li>
-    
-    
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">机器翻译与后编辑</li>
       <li class="wy-breadcrumbs-aside">
-        
-            
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <div class="tex2jax_ignore mathjax_ignore section" id="id1">
-<h1>机器翻译与后编辑<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
-<div class="section" id="id2">
-<h2>机器翻译基本原理<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+             
+  <section id="id1">
+<h1>机器翻译与后编辑<a class="headerlink" href="#id1" title="此标题的永久链接"></a></h1>
+<section id="id2">
+<h2>机器翻译基本原理<a class="headerlink" href="#id2" title="此标题的永久链接"></a></h2>
 <ul class="simple">
 <li><p>RBMT</p></li>
 <li><p>SMT</p></li>
 <li><p>NMT</p></li>
 </ul>
-<div class="section" id="id3">
-<h3>基于规则<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<section id="id3">
+<h3>基于规则<a class="headerlink" href="#id3" title="此标题的永久链接"></a></h3>
 <p>靠人工来总结语言之间的转换。</p>
 <p>例如：</p>
 <p><strong>原文： I went to Nanjing.</strong></p>
 <p>先分析其句法结构，为 S V O 结构，再分析其时态为过去时，然后使用词汇表将对应中文词汇填入中文句子结构中。</p>
 <p><strong>译文：我去了南京。</strong></p>
 <p>因为规则太多导致规则之间的冲突屡见不鲜，随着规则的增多，整体上系统的可维护性越来越差。</p>
-</div>
-<div class="section" id="id4">
-<h3>基于统计<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+</section>
+<section id="id4">
+<h3>基于统计<a class="headerlink" href="#id4" title="此标题的永久链接"></a></h3>
 <p>进入到统计时代后，逐步拜托了对于语言学家的依赖，机器可以自行构建词汇和句法的知识。</p>
 <p>词汇的学习：</p>
 <p>The apple is favored by my grandfather.</p>
 <p>苹果 是 所喜欢 我的 爷爷</p>
 <p>然后就通过语言模型来将 {苹果 是 所喜欢 我的 爷爷 }，调整为一个可能的句子。这里其实机器也不知道哪个是对的，软件只能把所有的组合全都试验一遍，然后把概率最大的组合输出为结果。</p>
-</div>
-<div class="section" id="id5">
-<h3>基于神经网络<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+</section>
+<section id="id5">
+<h3>基于神经网络<a class="headerlink" href="#id5" title="此标题的永久链接"></a></h3>
 <p>搭建若干层网络，给神经网络输入原文和译文，由神经网络自动学习。</p>
 <p>神经网络基本原理。</p>
-</div>
-</div>
-<div class="section" id="id6">
-<h2>机器翻译常见讨论的问题<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
-<ol class="simple">
+</section>
+</section>
+<section id="id6">
+<h2>机器翻译常见讨论的问题<a class="headerlink" href="#id6" title="此标题的永久链接"></a></h2>
+<ol class="arabic simple">
 <li><p>如何评价机器翻译质量（BLEU）</p></li>
 <li><p>如何做机器翻译后编辑</p></li>
 <li><p>如何计算后编辑的工作量</p></li>
 </ol>
-</div>
-<div class="section" id="id7">
-<h2>常见机器翻译服务商<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
-<ol class="simple">
+</section>
+<section id="id7">
+<h2>常见机器翻译服务商<a class="headerlink" href="#id7" title="此标题的永久链接"></a></h2>
+<ol class="arabic simple">
 <li><p>Google Cloud Translation API</p></li>
 <li><p>Microsoft Cognitive Toolkit | Translator</p></li>
 <li><p><a class="reference external" href="https://fanyi-api.baidu.com/manage/developer">百度翻译 API</a></p></li>
 <li><p>阿里云</p></li>
 <li><p>小牛翻译</p></li>
 </ol>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="mt-for-trados.html" class="btn btn-neutral float-right" title="在 Trados中使用机器翻译" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="../pm/pm.html" class="btn btn-neutral float-left" title="翻译项目管理" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
+        <a href="../qa/TQA.html" class="btn btn-neutral float-left" title="翻译质量评估" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="mt-for-trados.html" class="btn btn-neutral float-right" title="在 Trados中使用机器翻译" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        
-        &copy; 版权所有 PKUX LAB
-
-    </p>
+    <p>&#169; 版权所有 PKUX LAB.</p>
   </div>
-    
-    
-    
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
-    
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
-    
-    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  利用 <a href="https://www.sphinx-doc.org/">Sphinx</a> 构建，使用的 
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">主题</a>
+    由 <a href="https://readthedocs.org">Read the Docs</a> 开发.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>
