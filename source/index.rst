@@ -7,7 +7,11 @@
 ===============================================
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: 课程介绍
 
+   intro/intro.md
 
 
 .. toctree::
